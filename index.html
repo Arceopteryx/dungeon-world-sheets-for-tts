@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body class="container-fluid">
+        <form method="post" action="" id="character-form">
+            <div class="basic-info ">
+                <div class="row">
+                    <div class="col-xs-4 ">
+                        <h5>Class</h5>
+                        <input class="form-control" type="text" name="class" placeholder="Class">
+                    </div>
+                    <div class="col-xs-2">
+                        <h5>Name</h5>
+                        <input class="form-control" type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="col-xs-2">
+                        <h5>Race</h5>
+                        <input class="form-control" type="text" name="race" placeholder="Race">
+                    </div>
+                    <div class="col-xs-2">
+                        <h5>Level</h5>
+                        <input class="form-control" type="number" name="level" placeholder="Level">
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <h5>XP</h5>
+                                <input class="form-control" type="number" name="current_xp" placeholder="Current XP">
+                            </div>
+                            <div class="col-xs-6">
+                                <h5>Max XP</h5>
+                                <input class="form-control" type="number" name="max_xp" placeholder="XP">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h5>Body</h5>
+                        <input class="form-control" type="text" name="body" placeholder="Body">
+                        <h5>Eyes</h5>
+                        <input class="form-control" type="text" name="eyes" placeholder="Eyes">
+                        <h5>Decoration</h5>
+                        <input class="form-control" type="text" name="decoration" placeholder="Decoration">
+                        <h5>Clothes</h5>
+                        <input class="form-control" type="text" name="clothes" placeholder="Clothes">
+                    </div>
+                    <div class="col-xs-4">
+                        <h5>Armor</h5>
+                        <input class="form-control" type="number" name="armor" placeholder="Armor">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <h5>Max HP</h5>
+                                <input class="form-control" type="number" name="max_hp" placeholder="Max HP">
+                            </div>
+                            <div class="col-xs-6">
+                                <h5>Current HP</h5>
+                                <input class="form-control" type="number" name="current_hp" placeholder="Current HP">
+                            </div>
+                        </div>
+                        <h5>Damage</h5>
+                        <input class="form-control" type="text" name="damage" placeholder="Damage">
+                    </div>
+                    <div class="col-xs-4">
+                        <h5>Alignment</h5>
+                        <input class="form-control" type="text" name="alignment" placeholder="Alignment">
+                        <h5>Bonds</h5>
+                        <textarea class="form-control" name="bonds" form="character-form">Bonds</textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <h5>Strength</h5>
+                                <input class="form-control" type="number" name="strength" placeholder="Strength">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Strength Modifier</h5>
+                                <input class="form-control" type="number" name="strength-modifier" placeholder="Strength Modifier">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Weak -1</h5>
+                                <input class="" type="checkbox" name="weak">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <h5>Dexterity</h5>
+                                <input class="form-control" type="number" name="dexterity" placeholder="Dexterity">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Dexterity Modifier</h5>
+                                <input class="form-control" type="number" name="dexterity-modifier" placeholder="Dexterity Modifier">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Shaky -1</h5>
+                                <input class="" type="checkbox" name="shaky">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <h5>Constitution</h5>
+                                <input class="form-control" type="number" name="constitution" placeholder="Constitution">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Constitution Modifier</h5>
+                                <input class="form-control" type="number" name="constitution-modifier" placeholder="Constitution Modifier">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Sick -1</h5>
+                                <input class="" type="checkbox" name="sick">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <h5>Intelligence</h5>
+                                <input class="form-control" type="number" name="intelligence" placeholder="Intelligence">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Intelligence Modifier</h5>
+                                <input class="form-control" type="number" name="intelligence-modifier" placeholder="Intelligence Modifier">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Stunned -1</h5>
+                                <input class="" type="checkbox" name="stunned">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <h5>Wisdom</h5>
+                                <input class="form-control" type="number" name="wisdom" placeholder="Wisdom">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Wisdom Modifier</h5>
+                                <input class="form-control" type="number" name="wisdom-modifier" placeholder="Wisdom Modifier">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Confused -1</h5>
+                                <input class="" type="checkbox" name="confused">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <h5>Charisma</h5>
+                                <input class="form-control" type="number" name="charisma" placeholder="Charisma">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Charisma Modifier</h5>
+                                <input class="form-control" type="number" name="charisma-modifier" placeholder="Charisma Modifier">
+                            </div>
+                            <div class="col-xs-4">
+                                <h5>Scarred -1</h5>
+                                <input class="" type="checkbox" name="scarred">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Moves</h4>
+                        <textarea class="form-control" name="move" form="character-form">Moves</textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Gear</h4>
+                        <textarea class="form-control" name="gear" form="character-form">Gear</textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Spells</h4>
+                        <textarea class="form-control" name="spells" form="character-form">Spells</textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Notes</h4>
+                        <textarea class="form-control" name="notes" form="character-form">Notes</textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
